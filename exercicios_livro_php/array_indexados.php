@@ -1,10 +1,7 @@
 <?php
-$ofertas = [
-    ['nome' => 'nutella', 'preço' => 25, 'estoque' => 7,],
-    ['nome' => 'sorvete', 'preço' => 15, 'estoque' => 10,],
-    ['nome' => 'chocolate', 'preço' => 10, 'estoque' => 30,],
-
-
+$melhores_doces = [
+    'chocolate', 'm&m', 'mentos', 'nutella',
+    'sorvete', 'cookie', 'marshmallows'
 ];
 ?>
 <!doctype html>
@@ -33,28 +30,28 @@ $ofertas = [
              style="width: 24rem; border-radius: 20px; background-color: #fff0f6;">
 
             <h3 class="text-center mb-3" style="color: #ff69b4;">
-                🍩 Oferetas:
+                🍩 Melhores doces
             </h3>
 
             <ul class="list-group list-group-flush">
 
                 <li class="list-group-item" style="background-color: #fff0f6;">
-                    🍫 <?php echo $ofertas[0]['nome']; ?> - R$<?php echo $ofertas[0]['preço']; ?>
+                    🍫 <?php echo $melhores_doces[3]?>
                 </li>
 
                 <li class="list-group-item" style="background-color: #fff0f6;">
-                    🍬 <?php echo $ofertas[1]['nome']; ?> - R$<?php echo $ofertas[1]['preço']; ?>
+                    🍬 <?php echo $melhores_doces[4]?>
                 </li>
 
                 <li class="list-group-item" style="background-color: #fff0f6;">
-                    🍭 <?php echo $ofertas[2]['nome']; ?> - R$<?php echo $ofertas[2]['preço']; ?>
+                    🍭 <?php echo $melhores_doces[0]?>
                 </li>
 
             </ul>
 
             <div class="text-center mt-4">
-                <a href="arrey_indexados.php" class="btn btn-outline-danger px-4 py-2">
-                    Voltar para a página inicial
+                <a href="array_multidimensionais.php" class="btn btn-outline-danger px-4 py-2">
+                    Ver preços
                 </a>
             </div>
 

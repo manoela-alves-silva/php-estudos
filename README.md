@@ -19,7 +19,7 @@ php-estudos
 │   ├── funcoes
 │   ├── loops
 │   ├── operadores
-│   └── orientaocao_objetos
+│   └── orientacao_objetos
 │       └── sistemas_simples
 │
 ├── 📁 incorporando_scripts
