@@ -18,7 +18,9 @@ php-estudos
 │   ├── condicionais
 │   ├── funcoes
 │   ├── loops
-│   └── operadores
+│   ├── operadores
+│   └── orientaocao_objetos
+│       └── sistemas_simples
 │
 ├── 📁 incorporando_scripts
 │
@@ -60,6 +62,21 @@ php-estudos
 - Funções para arrays
 - Funções de data
 
+### 🧱 Orientação a Objetos
+
+- Classes, objetos e instanciação
+- Propriedades, métodos e `$this`
+- Construtores
+- Visibilidade (`public`, `protected`, `private`)
+- Constantes de classe
+- Herança e ancestralidade
+- Classes abstratas
+- Interfaces
+- Traits
+- Classes anônimas
+- Verificação de classes e objetos
+- Sistemas simples: calculadora, gerenciador de contatos, gerenciador de tarefas e reserva de passagens
+
 ### 🌐 Desenvolvimento Web
 
 - Inclusão de arquivos (`include` e `require`)
@@ -75,7 +92,7 @@ php-estudos
 
 # 📚 Próximos estudos
 
-- [ ] Orientação a Objetos
+- [x] Orientação a Objetos
 - [ ] MySQL
 - [ ] PDO
 - [ ] Sessões
